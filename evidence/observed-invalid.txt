@@ -1,0 +1,14 @@
+Observed invalid-replacement transcript from the research session (PHP 8.4.14 / libcurl 8.14.1):
+
+bool(true)
+ALIVE_AFTER_REGISTER=yes
+RECEIVER_DESTROYED
+INVALID_SET_EXCEPTION=TypeError
+INVALID_SET_MESSAGE=curl_multi_setopt(): Argument #2 ($option) must be a valid callback for option CURLMOPT_PUSHFUNCTION, no array or string given
+ALIVE_AFTER_INVALID_SET=no
+ADD_STATUS=0
+Segmentation fault
+PROCESS_EXIT=139
+
+Provenance: researcher-provided console output in the working conversation. Not independently re-run during archive assembly.
+Interpretation: the previous receiver was destroyed after an invalid replacement attempt; a segmentation fault followed after a handle was added. The control transcript reached the callback; the invalid transcript's timing is consistent with the push path but should be repeated with contemporaneous server logs and a current supported PHP patch release.

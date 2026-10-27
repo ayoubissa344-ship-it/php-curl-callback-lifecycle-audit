@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite it as a research probe and not as a confirmed vulnerability report."
+title: "PHP cURL Push-Callback Replacement: Lifecycle Audit"
+version: 0.1.0
+date-released: 2026-10-27
+type: software
+license: MIT
+abstract: >-
+  A local reproducer, successful control, reported crash transcripts, and source-level
+  analysis of a PHP cURL CURLMOPT_PUSHFUNCTION invalid-replacement crash candidate.
+  Security impact, remote reachability, affected-version range, and novelty are not established.

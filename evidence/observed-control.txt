@@ -1,0 +1,16 @@
+Observed control transcript from the research session (PHP 8.4.14 / libcurl 8.14.1):
+
+bool(true)
+ALIVE_AFTER_REGISTER=yes
+ADD_STATUS=0
+CALLBACK_INVOKED
+REQUEST_RESULT=0
+CURL_ERROR=
+MULTI_STATUS=No error
+CALLBACK_COUNT=1
+RECEIVER_DESTROYED
+ALIVE_AFTER_MULTI_OBJECT_RELEASE=no
+PROCESS_EXIT=0
+
+Provenance: researcher-provided console output in the working conversation. Not independently re-run during archive assembly.
+Interpretation: the control reached the userland server-push callback and exited normally.

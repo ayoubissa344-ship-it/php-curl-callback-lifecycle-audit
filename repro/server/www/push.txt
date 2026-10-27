@@ -1,0 +1,1 @@
+This resource is configured as a server-pushed resource for the local probe.
